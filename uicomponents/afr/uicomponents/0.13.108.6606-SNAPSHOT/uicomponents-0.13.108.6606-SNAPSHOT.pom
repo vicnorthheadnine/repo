@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>uicomponents.afr</groupId>
+  <artifactId>uicomponents</artifactId>
+  <version>0.13.108.6606-SNAPSHOT</version>
+  <packaging>aar</packaging>
+  <name>UiComponents</name>
+  <description>Common UI Components for mobile apps</description>
+  <url>https://bitbucket.org/ffxblue/mobile-lib-ui-components-android/</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>nine</id>
+      <name>Nine</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://bitbucket.org/ffxblue/mobile-lib-ui-components-android.git</connection>
+    <developerConnection>scm:git:git@bitbucket.org:ffxblue/mobile-lib-ui-components-android.git</developerConnection>
+    <url>https://bitbucket.org/ffxblue/mobile-lib-ui-components-android/</url>
+  </scm>
+</project>

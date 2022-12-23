@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-collections-immutable/0.3.3/kotlinx-collections-immutable-0.3.3.module",
+    "group": "org.jetbrains.kotlinx",
+    "module": "kotlinx-collections-immutable",
+    "version": "0.3.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.3",
+      "buildId": "mmgummigo5cnjpn64por6qisza"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvm-api",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-collections-immutable-jvm-0.3.3.jar",
+          "url": "kotlinx-collections-immutable-jvm-0.3.3.jar",
+          "size": 197336,
+          "sha512": "0fb83d6adcbdd3a675ff46d8823dc97940ce46b0ac764f53d7d665ac14100702499f675b22754766025b0d4e9827b154e308852a4e235605deb7ca562b252495",
+          "sha256": "0b2873e7ab576149d2b0a612bc1145ddd3a58645f2503d0f110e2907b141a2b4",
+          "sha1": "30eab457f7997ff4d9fc152710009a60d9d1162f",
+          "md5": "7dfc543069278077e0721b6e7b31d016"
+        }
+      ]
+    },
+    {
+      "name": "jvm-runtime",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-collections-immutable-jvm-0.3.3.jar",
+          "url": "kotlinx-collections-immutable-jvm-0.3.3.jar",
+          "size": 197336,
+          "sha512": "0fb83d6adcbdd3a675ff46d8823dc97940ce46b0ac764f53d7d665ac14100702499f675b22754766025b0d4e9827b154e308852a4e235605deb7ca562b252495",
+          "sha256": "0b2873e7ab576149d2b0a612bc1145ddd3a58645f2503d0f110e2907b141a2b4",
+          "sha1": "30eab457f7997ff4d9fc152710009a60d9d1162f",
+          "md5": "7dfc543069278077e0721b6e7b31d016"
+        }
+      ]
+    },
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../kotlinx-collections-immutable-metadata/0.3.3/kotlinx-collections-immutable-metadata-0.3.3.module",
+        "group": "org.jetbrains.kotlinx",
+        "module": "kotlinx-collections-immutable-metadata",
+        "version": "0.3.3"
+      }
+    },
+    {
+      "name": "metadata-commonMainMetadataElements",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../kotlinx-collections-immutable-metadata/0.3.3/kotlinx-collections-immutable-metadata-0.3.3.module",
+        "group": "org.jetbrains.kotlinx",
+        "module": "kotlinx-collections-immutable-metadata",
+        "version": "0.3.3"
+      }
+    }
+  ]
+}

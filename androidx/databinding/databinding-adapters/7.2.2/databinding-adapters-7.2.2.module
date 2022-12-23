@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "androidx.databinding",
+    "module": "databinding-adapters",
+    "version": "7.2.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "7.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "databinding-adapters-7.2.2.aar",
+          "url": "databinding-adapters-7.2.2.aar",
+          "size": 81797,
+          "sha512": "5d748960d937fd389c6b128b08217e7b8ae2c52942f25ca4fc9aace2ec1df7582c3b9a2f062de133c4c2ad148ca89a1268d51e4cb663896ac93c005afc5bde22",
+          "sha256": "f3c55dc71252ba5f7ff17d519a8d94e954e6c31ba263820719c6d141c5230195",
+          "sha1": "497f6030b90dfc8a2752961ff7f2529f63182588",
+          "md5": "d76b2bb9a8c3739f62f65122bd22a86a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "7.2.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "7.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "databinding-adapters-7.2.2.aar",
+          "url": "databinding-adapters-7.2.2.aar",
+          "size": 81797,
+          "sha512": "5d748960d937fd389c6b128b08217e7b8ae2c52942f25ca4fc9aace2ec1df7582c3b9a2f062de133c4c2ad148ca89a1268d51e4cb663896ac93c005afc5bde22",
+          "sha256": "f3c55dc71252ba5f7ff17d519a8d94e954e6c31ba263820719c6d141c5230195",
+          "sha1": "497f6030b90dfc8a2752961ff7f2529f63182588",
+          "md5": "d76b2bb9a8c3739f62f65122bd22a86a"
+        }
+      ]
+    }
+  ]
+}
